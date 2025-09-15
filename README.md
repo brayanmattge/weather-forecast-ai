@@ -13,7 +13,7 @@ You can search for the real-time weather forecast of any country or city and ask
 ## Development server frontend
 
 - Use command `cd frontend` and run `npm install` to install dependencies.
-- Navigate to `weatherService.ts` and add your API KEY `WEATHER_API_KEY`.You can an get API KEY accessing [WEATHER API](https://www.weatherapi.com/).
+- Navigate to `weatherService.ts` and add your API KEY `WEATHER_API_KEY`.You can get an API KEY accessing [WEATHER API](https://www.weatherapi.com/).
 - Run `npm run dev` and navigate to `http://localhost:5173/`. The app will automatically reload if you change any source files.
 
 ## Features 
