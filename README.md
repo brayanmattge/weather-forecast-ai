@@ -6,14 +6,15 @@ You can search for the real-time weather forecast of any country or city and ask
 
 ## Development server backend
 
-- 1º Use `cd backend` and run `npm install` to install dependencies.
-- 2º Create a file `.env` and add `GROQ_API_KEY=` with your KEY. You can get an API KEY accessing [GROQ](https://groq.com/).
-- 3º Run `node --watch ./server.js`. The app will automatically reload if you change any source files.
+- Use `cd backend` and run `npm install` to install dependencies.
+- Create a file `.env` and add `GROQ_API_KEY=` with your KEY. You can get an API KEY accessing [GROQ](https://groq.com/).
+- Run `node --watch ./server.js`. The app will automatically reload if you change any source files.
 
 ## Development server frontend
 
-- 1º Use command `cd frontend` and run `npm install` to install dependencies.
-- 2º Run `npm run dev` and navigate to `http://localhost:5173/`. The app will automatically reload if you change any source files.
+- Use command `cd frontend` and run `npm install` to install dependencies.
+- Navigate to `weatherService.ts` and add your API KEY `WEATHER_API_KEY`.You can an get API KEY accessing [WEATHER API](https://www.weatherapi.com/).
+- Run `npm run dev` and navigate to `http://localhost:5173/`. The app will automatically reload if you change any source files.
 
 ## Features 
 
