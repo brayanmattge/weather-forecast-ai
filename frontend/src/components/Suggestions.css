@@ -1,0 +1,32 @@
+.suggestions {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+}
+
+.suggestion-button {
+    margin: 1rem;
+    padding: 0.3rem;
+    border-radius: 0.6rem;;
+    width: 100%;
+    background: linear-gradient(#ffffff14, #fff0);
+    border: 1px solid #ffffff26;
+    transition: transform 0.45s ease, border-color 0.45s ease, box-shadow 0.45s ease;
+}
+
+.suggestion-button:hover {
+    border: 1px solid #8b7f7f;
+}
+
+.suggestion-button:focus {
+    outline: none;
+}
+
+.message-dialog {
+    text-align: justify;
+    text-align-last: left;
+}

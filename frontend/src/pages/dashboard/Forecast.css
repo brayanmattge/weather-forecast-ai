@@ -1,0 +1,94 @@
+.weather-forecast {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 451px;
+
+    .title {
+        margin: 1rem;
+        padding: 0px;
+    }
+}
+
+.header-forecast {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.search-city {
+    padding: 0.7rem;
+    border-radius: 0.6rem;;
+    width: 70%;
+    background: linear-gradient(#ffffff14, #fff0);
+    border: 1px solid #ffffff26;
+    transition: border-color 0.45s ease, box-shadow 0.45s ease;
+}
+
+.search-city:hover {
+    border: 1px solid #8b7f7f;
+}
+
+.search-city:focus {
+    outline: none;
+}
+
+.search-button {
+    margin: 1rem;
+    padding: 0.3rem;
+    border-radius: 0.6rem;;
+    width: 30%;
+    background: linear-gradient(#ffffff14, #fff0);
+    border: 1px solid #ffffff26;
+    transition: border-color 0.45s ease, box-shadow 0.45s ease;
+}
+
+.search-button:hover {
+    border: 1px solid #8b7f7f;
+}
+
+.search-button:focus {
+    outline: none;
+}
+
+.body-forecast {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer-forecast {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.error-message {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    text-align: start;
+    color: #e41313;
+}
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 0.6s ease-out forwards;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
